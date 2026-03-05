@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+body{
+    background-color: #121212;
+    color: #FFFFFF;
+    /*position: absolute;*/
+    padding-top: 80px;
+    padding-right: 16px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #3396ff47;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    z-index: 1000; 
+}
+
+
+.img-logo{
+    margin-left: 20px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.caixa-logo{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.texto-logo{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    
+}
+
+.caixa-nav{
+    display: flex;
+    gap: 20px;
+}
+
+
+a{
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: 700;
+    border: 1px solid #007BFF;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+a:hover{
+    background-color: #007bff74;
+    color: #3395FF;
+    border: 1px solid #3395FF;
+}
+
+.btn-agendar{
+    
+    padding: 8px;
+    background-color: #007BFF;
+    color: #121212;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-agendar:hover{
+    background-color: #3395FF;
+    color: #ffffff7d;
+}
+
+
+.section-inicio{
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-height: calc(100vh - 80px);
+    padding: 85px 0;
+   
+}
+
+.img-principal{
+    width: 50%;
+    height: 100%;   
+    max-height: calc(100vh - 80px);
+    object-fit: cover;
+}
+article{
+    margin-left: 80px;
+}
+.titulo-inicio{
+    font-size: 40px;
+    font-weight: 600;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+.subtitulo-inicio{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.btn-whatsApp{
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 18px;
+    background-color: #007BFF;
+    font-weight: 800;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn-whatsApp:hover{
+    background-color: #3395FF;
+    color: #ffffff7d;
+}
+/*
+Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+*/
+/*section-sobre*/
+
+.section-sobre{
+    padding-bottom: 50px;
+    min-height: calc(100vh - 80px);
+    padding: 85px 0;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    overflow: hidden;
+
+}
+
+/*
+.so-img-sobre{
+    width: 50%;
+}
+*/
+
+
+.img-sobre{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    
+}
+
+.caixaSobre-styloFundo{
+    padding: 50px;
+    background-color: #3396ff47;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    margin-left: 8px;
+    margin-right: 8px;
+    
+}
+.texto-sobre{
+    font-weight: 600;
+}
+.caixa-sobre-conteudo{
+    display: flex;
+    flex-direction: column; 
+}
+
+
+
+.caixa-problemaSolução{
+    font-size: 18px;
+    padding: 20px;
+    background-color: #3396ff47;
+    border-radius: 8px;
+    
+    margin-bottom: 15px;
+   
+}
+.titulo-conteudo{
+    color: #007BFF;
+}
+
+strong{
+    font-size: 18px;
+    color: #007BFF;
+}
+
+.caixa-depoimentos{
+    display: flex;
+    gap: 20px;
+    padding: 8px;
+    background-color: #007bff3f;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+
+.img-depoimento{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.depoimentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #007bff4f;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.titulo-programa{
+
+    color: #007BFF;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+
+
+.programaDeTreinoCss{
+
+    padding-bottom: 50px;
+    min-height: calc(100vh - 80px);
+    padding: 85px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+ 
+    overflow: hidden;
+}
+
+.grid-caixas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 16px;
+    min-height: calc(100vh - 80px);
+    margin-bottom: 20px;
+}
+
+
+.progrmas{
+    padding: 20px;
+    background-color:  #007bff4f;
+    margin-bottom: 12px;
+    
+
+}
+.img-programas{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.contatosCss{
+    
+    background-color: #3396ff47;
+    padding: 30px;
+}
+
+.contatos-titulo{
+    text-align: center;
+    color: #007BFF;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+.caixa-contatos{
+    display: flex;
+    gap: 80px;
+}
+
+
